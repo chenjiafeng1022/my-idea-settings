@@ -1,27 +1,15 @@
 <application>
   <component name="libraryTable">
-    <library name="Kevin-Frontend" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$MAVEN_REPOSITORY$/a_web-front-end-lib" />
-        </sourceFilesUrls>
-      </properties>
-      <CLASSES>
-        <root url="file://$MAVEN_REPOSITORY$/a_web-front-end-lib" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
     <library name="lib">
       <CLASSES>
-        <root url="file://D:/DEV_Tools/lib" />
+        <root url="file://D:/dev/Glassfish/lib" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="file://D:/DEV_Tools/lib" />
+        <root url="file://D:/dev/Glassfish/lib" />
       </SOURCES>
-      <jarDirectory url="file://D:/DEV_Tools/lib" recursive="false" />
-      <jarDirectory url="file://D:/DEV_Tools/lib" recursive="false" type="SOURCES" />
+      <jarDirectory url="file://D:/dev/Glassfish/lib" recursive="false" />
+      <jarDirectory url="file://D:/dev/Glassfish/lib" recursive="false" type="SOURCES" />
     </library>
   </component>
 </application>
