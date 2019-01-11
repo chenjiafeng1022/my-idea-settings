@@ -1,0 +1,13 @@
+<application>
+  <component name="SetterTemplates">
+    <option name="defaultTempalteName" value="Setter with Coments" />
+    <option name="templates">
+      <list>
+        <TemplateResource>
+          <option name="fileName" value="Setter with Coments" />
+          <option name="template" value="/**&#10;* Sets the $field.name.&#10;*&#10;* &lt;p&gt;You can use get$StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project)))() to get the value of $field.name&lt;/p&gt;&#10;*&#10;* @param $field.name $field.name&#10;*/&#10;#set($paramName = $helper.getParamName($field, $project))&#10;public ##&#10;#if($field.modifierStatic)&#10;static ##&#10;#end&#10;void set$StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project)))($field.type $paramName) {&#10;#if ($field.name == $paramName)&#10;    #if (!$field.modifierStatic)&#10;    this.##&#10;    #else&#10;        $classname.##&#10;    #end&#10;#end&#10;$field.name = $paramName;&#10;}" />
+        </TemplateResource>
+      </list>
+    </option>
+  </component>
+</application>
